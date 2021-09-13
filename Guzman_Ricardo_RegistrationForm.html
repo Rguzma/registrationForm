@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    
+    <label>First Name:* <input type="text" name="First_Name"></label> <br>
+
+    <label> Last Name:*  <input type="text" name="Last_Name"></label> <br>
+
+    <label>Email Address:* <input type="text" name="Email_Address"></label>  <br>
+
+    <label>Password:* <input type="text" name="Password"></label>  <br>
+
+    <label>Confirm Password:* <input type="text" name="Confirm_Password"></label>  <br>
+
+    <label>Birthday: <input type="date" name="Birthday"></label>  <br>
+
+    <label>Gender Identifier</label><br> 
+    <input type="radio" name="Gender_identifier">
+    <label>Male</label>
+    <input type="radio" name="Gender_identifier">
+    <label>Female</label>
+    <input type="radio" name="Gender_identifier">
+    <label>Non-binary</label>
+    <input type="radio" name="Gender_identifier">
+    <label>Prefer not to answer</label><br>
+
+    <p>A short description about myself</p>
+    <textarea name="comment" cols="20" rows="3"></textarea><br>
+
+    <label>Select favorite language</label>
+    <select name="Language">
+        <option>Java Script</option>
+        <option>C+</option>
+        <option>Python</option>
+    </select><br>
+    
+    <input type="checkbox" name="accept" id="accept"> <label for="accept">I would like to receive period email updates</label><br>
+
+    <div>
+        <input type="submit" value="Create Account">
+
+    </div>    
+    <p>*indicates a required file</p>
+</body>
